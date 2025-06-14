@@ -1,6 +1,6 @@
 Tài liệu https://developer.mozilla.org/en-US/docs/Web
 https://docs.google.com/presentation/d/1tyvQ4N4-pKRhSYRvEzpUkWWdpVGUylFBatr21orErLo/pub?slide=id.p1
-1. CSS function
+## 1. CSS function
 CSS functions (hàm trong CSS) là các công cụ mạnh mẽ giúp thực hiện các phép tính, tạo giá trị động, hoặc xử lý dữ liệu trực tiếp trong mã CSS. Chúng được sử dụng để tạo kiểu linh hoạt và đáp ứng hơn. Các hàm CSS thường được dùng trong các thuộc tính như color, transform, background, clip-path, và nhiều hơn nữa.
 
 1. Hàm liên quan đến màu sắc
@@ -98,7 +98,7 @@ transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
 Lưu ý
 	• Các hàm CSS rất linh hoạt và cần hiểu rõ mục đích sử dụng để áp dụng hiệu quả.
 	• Một số hàm yêu cầu trình duyệt hỗ trợ hiện đại (kiểm tra khả năng hỗ trợ trước khi sử dụng).
-2. Pseudo classes trong CSS
+## 2. Pseudo classes trong CSS
 Pseudo-classes trong CSS là các từ khóa được thêm vào các bộ chọn (selectors) để xác định trạng thái đặc biệt của phần tử hoặc lựa chọn các phần tử dựa trên điều kiện cụ thể mà không cần thay đổi trực tiếp HTML. Pseudo-classes giúp bạn tạo kiểu cho các phần tử dựa trên trạng thái, vị trí, hoặc các đặc điểm khác.
 
 Cú pháp
@@ -253,7 +253,7 @@ Lưu ý
 	• Pseudo-classes hoạt động dựa trên trạng thái phần tử, không thay đổi cấu trúc DOM.
 	• Một số pseudo-classes yêu cầu hỗ trợ trình duyệt hiện đại, như :is(), :where().
 	• Pseudo-classes khác với pseudo-elements (::before, ::after) vì chúng không tạo phần tử mới mà áp dụng trực tiếp trên phần tử hiện có.
-3. Pseudo element trong CSS
+## 3. Pseudo element trong CSS
 Pseudo-elements trong CSS là các từ khóa đặc biệt được thêm vào bộ chọn để định kiểu cho các phần cụ thể của phần tử, chẳng hạn như thêm nội dung trước hoặc sau nội dung thực tế của phần tử. Pseudo-elements khác với pseudo-classes ở chỗ chúng tạo ra một phần tử ảo (không tồn tại trong DOM) và chỉ có thể áp dụng kiểu cho phần đó.
 
 Cú pháp
@@ -375,7 +375,7 @@ Cú pháp: selector:pseudo-class	Cú pháp: selector::pseudo-element
 Lưu ý
 	• Các pseudo-elements có thể kết hợp với các selectors khác (ví dụ: p:hover::before).
 	• Một số pseudo-elements, như ::selection hoặc ::placeholder, có hỗ trợ trình duyệt giới hạn. Hãy kiểm tra trước khi sử dụng trong các dự án thực tế.
-4. Thuộc tính position
+## 4. Thuộc tính position
 Thuộc tính position trong CSS được sử dụng để xác định cách định vị một phần tử trên trang web. Nó kiểm soát cách phần tử được đặt trong luồng tài liệu và có thể được kết hợp với các thuộc tính như top, right, bottom, và left để định vị chính xác phần tử.
 
 Cú pháp
