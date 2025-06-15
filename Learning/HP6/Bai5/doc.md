@@ -8,7 +8,7 @@ rgb() và rgba()
 	• Định nghĩa màu bằng các giá trị RGB (Red, Green, Blue) với tùy chọn alpha (độ trong suốt).
 	• Cú pháp: 
 color: rgb(255, 0, 0);       /* Màu đỏ */
-color: rgba(255, 0, 0, 0.5); /* Màu đỏ, độ trong suốt 50% */
+color: rgba(255, 0, 0,0.1); /* Màu đỏ, độ trong suốt 50% */
 
 hsl() và hsla()
 	• Định nghĩa màu bằng Hue (sắc độ), Saturation (độ bão hòa), và Lightness (độ sáng) với tùy chọn alpha.
@@ -375,6 +375,7 @@ Cú pháp: selector:pseudo-class	Cú pháp: selector::pseudo-element
 Lưu ý
 	• Các pseudo-elements có thể kết hợp với các selectors khác (ví dụ: p:hover::before).
 	• Một số pseudo-elements, như ::selection hoặc ::placeholder, có hỗ trợ trình duyệt giới hạn. Hãy kiểm tra trước khi sử dụng trong các dự án thực tế.
+
 ## 4. Thuộc tính position
 Thuộc tính position trong CSS được sử dụng để xác định cách định vị một phần tử trên trang web. Nó kiểm soát cách phần tử được đặt trong luồng tài liệu và có thể được kết hợp với các thuộc tính như top, right, bottom, và left để định vị chính xác phần tử.
 
