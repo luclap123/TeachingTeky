@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu bản thân</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- chuyển đổi dark mode/light mode -->
+    <div class="toggle-theme" onclick="toggleTheme()">🌓</div>
+    <!-- card profile -->
+    <div class="container">
+        <!-- header -->
+        <header>
+            <img class="avatar" src="./avatar.jpg" alt="">
+            <h1>Lục Văn Lập</h1>
+            <p>Giáo viên dạy học</p>
+            <a href="" download class="btn-download">Tải CV</a>
+        </header>
+
+        <!-- about -->
+        <section class="about">
+            <h2>Giới thiệu</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime quas asperiores sit esse. Enim rerum hic temporibus repellat? Eum corrupti placeat qui at tenetur magnam animi iusto libero odio voluptatum.</p>
+        </section>
+
+        <!-- contact -->
+        <section class="contact">
+            <h2>Liên hệ</h2>
+            <div class="socials">
+                <a href="mailto:boylap7@gmai.com">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="">
+                    <i class="fa-solid fa-phone"></i>
+                </a>
+                
+            </div>
+        </section>
+
+    </div>
+    <script>
+        function toggleTheme() {
+            document.body.classList.toggle('dark')
+        }
+    </script>
+</body>
+</html>
