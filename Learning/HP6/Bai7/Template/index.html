@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trang Tin Tức Tổng Hợp</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header>
+    <img src="https://via.placeholder.com/100x50?text=Logo" alt="Logo" />
+    <h1>Trang Tin Tức Tổng Hợp</h1>
+  </header>
+
+  <nav>
+    <div class="nav-container">
+      <button class="menu-toggle" onclick="document.querySelector('.nav-links').classList.toggle('show')">☰</button>
+      <div class="nav-links">
+        <a href="#home" class="active">Trang chủ</a>
+        <a href="#politics">Chính trị</a>
+        <a href="#education">Giáo dục</a>
+        <a href="#sports">Thể thao</a>
+        <a href="#technology">Công nghệ</a>
+      </div>
+      <div class="search-box">
+        <input type="text" placeholder="Tìm kiếm bài viết..." />
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section id="home">
+      <h2>Trang chủ</h2>
+      <p>Tổng hợp tất cả các bài viết từ các chuyên mục.</p>
+    </section>
+
+    <section id="politics">
+      <h2>Chính trị</h2>
+      <a href="bai-viet.html" class="article-card" target="_blank">
+        <img src="https://via.placeholder.com/150" alt="Chính trị">
+        <div class="article-content">
+          <h3 class="article-title">Tình hình chính trị thế giới</h3>
+          <p class="article-description">Mô tả ngắn: Biến động chính trị ảnh hưởng đến Việt Nam và khu vực.</p>
+        </div>
+      </a>
+    </section>
+
+    <section id="education">
+      <h2>Giáo dục</h2>
+      <a href="bai-viet.html" class="article-card" target="_blank">
+        <img src="https://via.placeholder.com/150" alt="Giáo dục">
+        <div class="article-content">
+          <h3 class="article-title">Cải cách giáo dục 2025</h3>
+          <p class="article-description">Mô tả ngắn: Những thay đổi trong chương trình học và thi THPT.</p>
+        </div>
+      </a>
+    </section>
+
+    <section id="sports">
+      <h2>Thể thao</h2>
+      <a href="bai-viet.html" class="article-card" target="_blank">
+        <img src="https://via.placeholder.com/150" alt="Thể thao">
+        <div class="article-content">
+          <h3 class="article-title">SEA Games 2025</h3>
+          <p class="article-description">Mô tả ngắn: Việt Nam giành nhiều HCV tại kỳ đại hội thể thao.</p>
+        </div>
+      </a>
+    </section>
+
+    <section id="technology">
+      <h2>Công nghệ</h2>
+      <a href="bai-viet.html" class="article-card" target="_blank">
+        <img src="https://via.placeholder.com/150" alt="Công nghệ">
+        <div class="article-content">
+          <h3 class="article-title">Xu hướng AI 2025</h3>
+          <p class="article-description">Mô tả ngắn: Trí tuệ nhân tạo, blockchain, và công nghệ mới nổi bật.</p>
+        </div>
+      </a>
+    </section>
+
+    <section id="contact">
+      <h2>Liên hệ</h2>
+      <p>Email: lienhe@tintuc.vn</p>
+      <p>Hotline: 0123 456 789</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Trang Tin Tức Tổng Hợp. All rights reserved.</p>
+  </footer>
+</body>
+</html>
